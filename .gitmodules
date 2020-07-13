@@ -1,0 +1,9 @@
+[submodule "Models"]
+	path = Models
+	url = https://github.com/ConnerTenn/Keytar_Models.git
+[submodule "VitisWorkspace"]
+	path = VitisWorkspace
+	url = https://github.com/ConnerTenn/Keytar_Vitis.git
+[submodule "VivadoKeytar"]
+	path = VivadoKeytar
+	url = https://github.com/ConnerTenn/Keytar_Vivado.git
