@@ -71,11 +71,13 @@ Refer to **ug585-Zynq-7000-TRM.pdf**
 
 ### Pins
 
-Package Pin | Function
-------------|---------
-R14 | RGB-R
-Y16 | RGB-G
-Y17 | RGB-B
+Package Pin | Function | Notes
+------------|----------|------
+||
+R14 | RGB-R | Pull Down Configuration (Low-->On, High-->Off)
+Y16 | RGB-G | Pull Down Configuration (Low-->On, High-->Off)
+Y17 | RGB-B | Pull Down Configuration (Low-->On, High-->Off)
+|| 
 
 
 
