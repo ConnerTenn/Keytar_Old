@@ -16,10 +16,17 @@
     * **ug821-zynq-7000-swdev.pdf**
         * Software Developer's Guide
     * **Z-turn Board Product User Manual.pdf**
+    * **z-turn board_v5_20181201.pdf**
+        * ZTurn Board Schematic
     * **xapp1079-amp-bare-metal-cortex-a9.pdf**
         * Source: https://www.xilinx.com/support/documentation/application_notes/xapp1079-amp-bare-metal-cortex-a9.pdf
 * **Models/**
 * **VivadoKeytar/**
+    * **VivadoKeytar.srcs/sources_1/bd/system/hdl/system_wrapper.v**
+        * Auto generated wrapper file for the processor.
+    * **VivadoKeytar.srcs/constrs_1/new/pinconnections.xdc**
+        * Contstraints file
+        * Package pin connections to internal signals
 * **VitisWorkspace/**
     * **SynthController/**
         * Project for Synth Controller software
@@ -60,6 +67,15 @@ Refer to **xapp1079-amp-bare-metal-cortex-a9.pdf**
 Refer to **ug585-Zynq-7000-TRM.pdf**
 * **6.1.10: Starting Code on CPU 1** (page 158)
 
+</br>
+
+### Pins
+
+Package Pin | Function
+------------|---------
+R14 | RGB-R
+Y16 | RGB-G
+Y17 | RGB-B
 
 
 
