@@ -77,8 +77,38 @@ Package Pin | Function | Notes
 R14 | RGB-R | Pull Down Configuration (Low-->On, High-->Off)
 Y16 | RGB-G | Pull Down Configuration (Low-->On, High-->Off)
 Y17 | RGB-B | Pull Down Configuration (Low-->On, High-->Off)
-|| 
+||
+P18 | Buzzer |  
+||
 
+</br>
 
+### CPU Address Map
+
+Address Range | Mapping
+--------------|--------
+0x0004_0000 --> 0x3FFF_FFFF | DRAM
+0x4000_0000 --> 0x7FFF_FFFF | General Purpose Port 0 to the PL </br> M_AXI_GP0
+0x8000_0000 --> 0xBFFF_FFFF | General Purpose Port 1 to the PL </br> M_AXI_GP1
+0xE000_0000 --> 0xE02F_FFFF | I/O Peripheral Registers
+0xE100_0000 --> 0xE5FF_FFFF | SMC Memories
+0xF800_0000 --> 0xF800_0BFF | SLCR Registers
+0xF800_1000 --> 0xF880_FFFF | PS Registers
+0xF890_0000 --> 0xF8F0_2FFF | CPU Private Registers
+0xFC00_0000 --> 0xFDFF_FFFF | Quad-SPI address
+0xFFFC_0000 --> 0xFFFF_FFFF | OCM (When Mapped High)
+
+</br>
+
+### Memory Mapping
+Address Range | Mapping
+--------------|--------
+0x0100_0000 --> 0x01FF_FFFF | CPU0 RAM
+0x0200_0000 --> 0x02FF_FFFF | CPU1 RAM
+0x0300_0000 --> 0x03FF_FFFF | Shared Memory
+0x0400_0000 --> 0x04FF_FFFF | Video RAM
+0x4000_0000 --> 0x7FFF_FFFF | AXI->APB bridge for Synth Module
+0x8000_0000 --> 0xBFFF_FFFF | AXI Unused
+0xFFFC_0000 --> 0xFFFF_FFFF | Shared OCM Memory
 
 
