@@ -22,8 +22,11 @@
         * Source: https://www.xilinx.com/support/documentation/application_notes/xapp1079-amp-bare-metal-cortex-a9.pdf
 * **Models/**
 * **VivadoKeytar/**
-    * **VivadoKeytar.srcs/sources_1/bd/system/hdl/system_wrapper.v**
-        * Auto generated wrapper file for the processor.
+    * **VivadoKeytar.srcs/sources_1**
+        * **/bd/system/hdl/system_wrapper.v**
+            * Auto generated wrapper file of the hardware top level.
+        * **Synth/**
+            * Folderthat contains all the real synth design code
     * **VivadoKeytar.srcs/constrs_1/new/pinconnections.xdc**
         * Contstraints file
         * Package pin connections to internal signals
