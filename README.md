@@ -109,11 +109,12 @@ Address Range | Mapping
 0x0100_0000 --> 0x01FF_FFFF | CPU0 RAM
 0x0200_0000 --> 0x02FF_FFFF | CPU1 RAM
  |
+0x1000_0000 --> 0x10FF_FFFF | Frame Buffers
+ |
 0x4000_0000 --> 0x400F_FFFF | AXI->APB bridge for Synth Module
  |
-0x4010_0000 --> 0x4010_0FFF | AXI->APB bridge for AUX Video controller
 0x4100_0000 --> 0x4100_03FF | Video DMA Controller
-0x6000_0000 --> 0x61FF_FFFF | Frame Buffers
+0x4101_0000 --> 0x4101_0FFF | AXI->APB bridge for AUX Video controller
  |
 0xFFFF_0000 --> 0xFFFF_FFFF | OCM: Shared Memory
 
