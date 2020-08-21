@@ -7,3 +7,6 @@
 [submodule "VivadoKeytar"]
 	path = VivadoKeytar
 	url = https://github.com/ConnerTenn/Keytar_Vivado.git
+[submodule "PCB"]
+	path = PCB
+	url = https://github.com/ConnerTenn/Keytar_PCB
