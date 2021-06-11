@@ -3,3 +3,9 @@
 #File Types
 
 #Files
+
+*.log
+
+*.jou
+
+*.zip
